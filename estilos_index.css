@@ -1,0 +1,308 @@
+/*-------------------------HEADER-------------------------*/
+
+*{
+    padding: 0px;
+    margin: auto;
+    font-family: "Quicksand";
+
+}
+
+body{   
+    background-image: url(./imagenes/ee29703780f7172631b1bab06e70c66f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 960px;
+    padding: auto;
+}
+
+#nombreMarca {
+    width: 100%;
+    height: 2rem;
+}
+#nombreMarca span{
+    color: #331f10;
+    text-shadow: none;
+}
+#nombreMarca h2{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-shadow: 2px 4px #331f10;
+    color: #dd6c15;
+}
+.animate__backInDown{
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: inherit;
+}
+
+#btn_principal{
+    width: 100%;
+    height: 2.4rem;
+    padding-top: 4rem;
+}
+#btn_principal ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#btn_principal ul li i{
+    color: #522808;
+}
+#btn_principal ul li a{
+    text-decoration: none;
+    font-size: large;
+    color: #331f10;
+    font-weight: 600;
+    text-align: center;
+}
+#btn_principal ul li {
+    background-color: #924918;
+    width: auto;
+    padding: 0.6rem;
+    border-radius: 100px;
+    list-style-type: none;
+}
+#btn_principal li:hover,
+#btn_principal li:focus{
+    background-color: #dd6c15;
+    border-radius: 100px;
+}
+/*-------------------------CONTENIDO-------------------------*/
+
+#inicio{
+    width: 100%;
+    height: 15rem;
+    margin-left:1rem;
+    padding-top: 1rem;
+    
+}
+
+#izq_img{
+    background-image: url(./imagenes/png-transparent-coffee-paper-packaging-and-labeling-packaging-design-coffee-label-cardboard-coffee-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center ;
+    width: 33.3%;
+    height: 15rem;
+    float: left;
+}
+#img_central{
+    width: 33.3%;
+    height: 15rem;
+    background-image: url(./imagenes/157-1577063_comprar-caf-online-imagenes-de-cafes-png-transparent-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+}
+#der_img{
+    width: 33.3%;
+    height: 15rem;
+    float: left;
+}
+#der_img{
+    background-image: url(./imagenes/png-transparent-brown-coffee-shop-illustration-coffee-cup-cafe-coffee-shop-food-coffee-shop-coffee-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+}
+#contenido_medio{
+    width: 100%;
+    height: 15rem;
+}
+.animate__backInLeft{
+    animation-duration: 3s;
+}
+#img_izq{
+    width: 33%;
+    height: 15rem;
+    background-image: url(/imagenes/Coffee-shop-logo-on-transparent-background-PNG-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    background-position: center;
+}
+#text_central{
+    width: 65%;
+    height: 15rem;
+    float: right;
+}
+#text_central p{
+    text-align: justify;
+    font-size: small ;
+    padding: 3rem;
+    margin-top: 2rem;
+    padding-top: 3.5rem;
+    font-weight: 800;
+    color: #dd6c15;
+}
+#text_central p:hover,
+#text_central p:focus{
+    background-color: #381803;
+    border-radius: 150px;
+    padding-top: 1rem;
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+    margin-right: 2rem;
+}
+.animate__jackInTheBox{
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    align-items: flex-start
+
+}
+
+/*-------------------------FOOTER-------------------------*/
+#final{
+    height: 7rem;
+    width:100%;
+    margin-bottom: 0%;
+}
+#btn_final{
+    width: 50%;
+    height: 3rem;
+    float: right;
+    border-radius: 100px;
+}
+#btn_final ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+}
+#btn_final ul li{
+    font-family: "Quicksand";
+    list-style-type: none;
+    background-color: #924918; 
+    padding: 0.5rem;
+    border-radius: 100px;
+}
+#btn_final ul li i{
+    color: #522808;
+    width: auto;
+}
+#btn_final ul li a{
+    text-decoration: none;
+    font-size: large;
+    color: #331f10;
+    font-weight: 600;
+    text-align: center;
+    width: auto;
+    border-radius: 100px;
+}
+#btn_final li:hover{
+    background-color: #dd6c15;
+    border-radius: 100px;
+}
+
+#text_final{
+    width: 50%;
+    height: 5rem;
+    float: left;
+    border-radius: 100px;
+
+}
+#text_final p{
+    margin: 0.5rem;
+    margin-top: 2%;
+    font-weight: 800;
+    color: #dd6c15;
+    width: auto;
+    
+}
+#text_final h6{
+    font-family: "Quicksand";
+    font-size: small;
+    font-weight: 900;
+    color: #924918;
+    text-align:center;
+    margin-top: 2rem;
+}
+
+/*-------------------------TABLETS-------------------------*/
+
+@media all and (min-width:600px) and (max-width:1023px){
+    body{
+    width: 599px;
+        }
+    header{
+        width: 599px;
+    }
+    #inicio{
+        width: 599px;
+    }
+    #contenido_medio{
+        width: 599px;
+    }
+    #btn_final ul li{
+        width: 50%;
+    }
+    #btn_final li{
+        text-align: center;
+    }
+    footer{
+        width: 599px;
+    }
+}
+@media all and (max-width:598px){
+    body{
+        width: 450px;
+        background-size: 500px 1100px;
+        margin: auto;
+
+            }
+        #inicio{
+            width: 100%;
+            margin-top: 2rem;
+        }
+        #nombreMarca{
+            width: 300px;
+            position: center;
+                }
+        #nombreMarca h2{
+            font-size: 06vmax;
+            text-align: center;
+            margin-left: 1rem;
+            margin-top: 2rem;
+        }
+        #btn_principal ul li{
+            width: auto;
+            margin: 1;
+        }
+        #btn_principal ul{
+            width: 300px;
+            margin-left: 4rem;
+            flex-direction: row;
+        }
+        #contenido_medio{
+            width: 400px;
+            margin: 0;
+        }
+        #img_izq{
+            width: 100%;
+        }
+        #text_central{
+            width: auto;
+            text-align: center;
+
+        }
+        #btn_final ul li{
+            width: 300px;
+        }
+        #btn_final li{
+            text-align: center;
+        }
+        footer{
+            width: 320px;
+        }
+        #text_final h6{
+            background-color: antiquewhite;
+            border-radius: 100px;
+        }
+}
